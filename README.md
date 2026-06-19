@@ -1,6 +1,6 @@
 # Urban Scooter — Backend API Test Suite
 
-![CI](https://github.com/mgcg4725-maker/urban-scooter-api-tests/actions/workflows/test.yml/badge.svg)
+![CI](https://github.com/Michael-QA-Labs/urban-scooter-api-tests/actions/workflows/test.yml/badge.svg)
 
 Automated backend API test suite for the Urban Scooter courier management system. Built with Python, pytest, and GitHub Actions CI.
 
@@ -82,7 +82,7 @@ urban-scooter-api-tests/
 
 ```bash
 # Clone and install
-git clone https://github.com/mgcg4725-maker/urban-scooter-api-tests.git
+git clone https://github.com/Michael-QA-Labs/urban-scooter-api-tests.git
 cd urban-scooter-api-tests
 pip install -r requirements.txt
 
@@ -136,4 +136,4 @@ Every push to `main` triggers the GitHub Actions workflow which:
 ## Author
 
 **Michael Garcia** — QA Engineer, Backend API Automation  
-[LinkedIn](https://linkedin.com/in/michael-garcia03) · [GitHub](https://github.com/mgcg4725-maker)
+[LinkedIn](https://linkedin.com/in/michael-garcia03) · [GitHub](https://github.com/Michael-QA-Labs)
