@@ -1,0 +1,6 @@
+requests==2.32.3
+pytest==8.3.5
+pytest-html==4.1.1
+jsonschema==4.23.0
+python-dotenv==1.0.1
+Faker==26.0.0
