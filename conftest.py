@@ -37,3 +37,4 @@ def new_courier(api):
     courier_id = api.get_id(login, password)
     if courier_id:
         api.delete(courier_id)
+

@@ -30,3 +30,8 @@ class CourierAPI:
         if response.status_code == 200:
             return response.json().get("id")
         return None
+
+
+def assert_response_time(elapsed: float, limit: float = 2.0):
+    """Call this after every request to enforce SLA."""
+    assert elapsed < limit, f"Response too slow: {elapsed:.2f}s (limit: {limit}s)"
